@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.user.myapplication.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        app:srcCompat="@drawable/logoni" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/inputLayoutFirstName"
+        android:textColorHint="#A7B7C2"
+        android:layout_marginTop="250dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:textColorHint="#A7B7C2"
+            android:id="@+id/Username"
+            android:layout_width="250dp"
+            android:textColor="@color/PBLACK"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/edittextstyle"
+            android:drawableLeft="@drawable/ic_action_userreg"
+            android:hint="Username" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/inputLayoutPass"
+        android:textColorHint="#A7B7C2"
+        android:layout_marginTop="320dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/firstname"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/PBLACK"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edittextstyle"
+            android:drawableLeft="@drawable/ic_action_passblack"
+            android:hint="Password" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="@color/colorAccent"
+        android:text="LOGIN"
+        android:textSize="20dp"
+        android:onClick="buttonMenu"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/cardView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="470dp"
+        android:background="@drawable/buttonstyle"
+        android:onClick="buttonReg"
+        android:text="Register Here"
+        android:textColor="#fff" />
+    <!--<EditText
+        android:id="@+id/editText3"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_below="@+id/editText3"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="16dp" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editText4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        app:cardBackgroundColor="@color/colorAccent"
+        app:cardCornerRadius="15dp"
+        android:onClick="buttonMenu"
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Login"
+                android:onClick="buttonMenu"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:background="#11000000"
+        android:text="Register Here"
+        android:textColor="#fff"
+        android:onClick="buttonReg"
+        />
+-->
+</RelativeLayout>
